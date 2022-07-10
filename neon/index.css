@@ -1,3 +1,62 @@
-main{
-    // test class
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  background-color: black;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section.top,
+section.bottom {
+  color: green;
+  display: flex;
+  margin: 10px auto;
+}
+section.bottom section {
+  margin: auto 4px;
+}
+section.top section {
+  margin: auto 5px;
+}
+section.top section.minutes {
+  font-size: 1.5rem;
+  flex-direction: column;
+}
+section.top section.hours {
+  font-size: 6rem;
+  font-weight: 900;
+}
+section.top section.minute {
+  opacity: 0.5;
+}
+section.top section.active {
+  opacity: 1;
+  font-weight: 600;
+}
+section.bottom section.data {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+section.bottom section.label,
+section.bottom section.data {
+  text-align: center;
+}
+
+section.bottom section.label {
+  font-size: 0.8rem;
 }
