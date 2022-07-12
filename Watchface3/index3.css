@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    flex-direction: column;
+    padding: 5px;
+}
+section.top, section.bottom {
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+}
+section.center {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+section.top, section.center, section.bottom {
+    margin: 5px;
+}
+
+section.battery-percentage, section.date-month {
+    border-bottom:1px solid whitesmoke;
+}
+section.center section.time span {
+    font-size: 15px;
+}
+section.steps, section.weather {
+    border-top:1px solid whitesmoke;
+
+}
+section.battery-percentage, section.date-month, section.steps, section.weather {
+    width: 110px;
+    text-align: center;
+    padding: 5px;
+}
+section.data {
+    font-weight:bold;
+}
